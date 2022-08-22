@@ -11,6 +11,10 @@
 		0741937828B31D5B00037307 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0741937728B31D5B00037307 /* ContentView.swift */; };
 		0741937A28B31D5C00037307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0741937928B31D5C00037307 /* Assets.xcassets */; };
 		0741937D28B31D5C00037307 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0741937C28B31D5C00037307 /* Preview Assets.xcassets */; };
+		0741938828B31E6400037307 /* MyStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0741938728B31E6400037307 /* MyStory.swift */; };
+		0741938A28B31EC800037307 /* StoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0741938928B31EC800037307 /* StoryModels.swift */; };
+		0741938C28B3209200037307 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0741938B28B3209200037307 /* StoryView.swift */; };
+		0741938E28B320D200037307 /* StoryPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0741938D28B320D200037307 /* StoryPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		0741937728B31D5B00037307 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0741937928B31D5C00037307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0741937C28B31D5C00037307 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0741938728B31E6400037307 /* MyStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStory.swift; sourceTree = "<group>"; };
+		0741938928B31EC800037307 /* StoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModels.swift; sourceTree = "<group>"; };
+		0741938B28B3209200037307 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		0741938D28B320D200037307 /* StoryPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				0741937728B31D5B00037307 /* ContentView.swift */,
 				0741937928B31D5C00037307 /* Assets.xcassets */,
 				0741937B28B31D5C00037307 /* Preview Content */,
+				0741938728B31E6400037307 /* MyStory.swift */,
+				0741938B28B3209200037307 /* StoryView.swift */,
+				0741938D28B320D200037307 /* StoryPageView.swift */,
+				0741938928B31EC800037307 /* StoryModels.swift */,
 			);
 			path = "Own Story";
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0741938C28B3209200037307 /* StoryView.swift in Sources */,
+				0741938E28B320D200037307 /* StoryPageView.swift in Sources */,
 				0741937828B31D5B00037307 /* ContentView.swift in Sources */,
+				0741938A28B31EC800037307 /* StoryModels.swift in Sources */,
 				0741937628B31D5B00037307 /* Own_StoryApp.swift in Sources */,
+				0741938828B31E6400037307 /* MyStory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
